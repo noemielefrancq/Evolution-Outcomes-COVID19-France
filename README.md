@@ -9,9 +9,9 @@ Our framework is able to monitor in-hospital mortality in real-time, accounting 
 - estimate (in real-time) detailed age- and sex- specific estimates of those outcomes
 
 ### Codes
-- Stan code: >_"Model_indiv_data_changeprobsdelays_plostdischarge_final.stan"_
-- R code to run the Stan code and estimate the parameters: "Run_model.R"
+- Stan code: ```Model_indiv_data_changeprobsdelays_plostdischarge_final.stan```
+- R code to run the Stan code and estimate the parameters: ```Run_model.R```
 
 ### Data
-- Example of a simulated dataset needed to run the model: _Individual_trajectories.rds_
+- Example of a simulated dataset needed to run the model: ```Individual_trajectories.rds```
 
