@@ -2,7 +2,7 @@
 
 Code used for the paper:
 
-**Evolution of outcomes for patients hospitalised during the first 9 months of the SARS-CoV-2 pandemic in France: A retrospective national surveillance data analysis**, Noémie Lefrancq, Juliette Paireau, Nathanaël Hozé, Noémie Courtejoie, Yazdan Yazdanpanah, Lila Bouadma, Pierre-Yves Boëlle, Fanny Chereau, Henrik Salje, Simon Cauchemez, _The Lancet Regional Health - Europe_, Volume 5, 2021 (https://www.sciencedirect.com/science/article/pii/S2666776221000648#fig0005)
+**Evolution of outcomes for patients hospitalised during the first 9 months of the SARS-CoV-2 pandemic in France: A retrospective national surveillance data analysis**, Noémie Lefrancq, Juliette Paireau, Nathanaël Hozé, Noémie Courtejoie, Yazdan Yazdanpanah, Lila Bouadma, Pierre-Yves Boëlle, Fanny Chereau, Henrik Salje, Simon Cauchemez, _The Lancet Regional Health - Europe_, Volume 5, 2021 (https://doi.org/10.1016/j.lanepe.2021.100087)
 
 Our framework is able to monitor in-hospital mortality in real-time, accounting for delays and censoring. It can be used to:
 - assess changes in patient outcomes over the course of an epidemic
