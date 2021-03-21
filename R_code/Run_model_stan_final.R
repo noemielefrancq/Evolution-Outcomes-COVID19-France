@@ -27,7 +27,7 @@ model_MCMC <- stan_model(file = 'Model_indiv_data_changeprobsdelays_plostdischar
 #########################################################
 
 ## Load data ############################################
-data=readRDS('Individual_trajectories.rds')
+data=readRDS('Simulated_individual_trajectories.rds')
 
 ## Data format: Large dataframe, each row corresponds to the trajectory of one COVID-19 patient admitted at hospital
 ## The dataframe contains, for each patient:
@@ -613,8 +613,8 @@ data.complementary = list(
 #########################################################
 ## Run MCMC
 #########################################################
-fit_delay =  sampling(model_MCMC, data = data.MCMC, chains = 1, 
-                      cores = 1,iter= 100, control = list(adapt_delta = 0.9, max_treedepth = 20))
+fit_delay =  sampling(model_MCMC, data = data.MCMC, chains = 3, 
+                      cores = 3,iter= 5000, control = list(adapt_delta = 0.9, max_treedepth = 20))
 #########################################################
 ## Save results
 #########################################################
